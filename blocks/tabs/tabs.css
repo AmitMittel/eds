@@ -1,0 +1,25 @@
+.tabs ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.tabs ul li a {
+  text-decoration: none;
+  padding: 8px 16px;
+  background: #eee;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.tabs ul li a.active {
+  background: #333;
+  color: #fff;
+}
+
+.tabs .tab-content {
+  border: 1px solid #ccc;
+  padding: 10px;
+}

@@ -10,10 +10,6 @@
  * governing permissions and limitations under the License.
  */
 
- .yellow {
-  background-color: yellow;
- }
-
 :root {
   /* colors */
   --background-color: white;
@@ -258,4 +254,9 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+
+.products {
+    display: none;
 }
