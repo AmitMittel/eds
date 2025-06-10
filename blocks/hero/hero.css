@@ -35,3 +35,21 @@
     padding: 40px 32px;
   }
 }
+
+.marquee .hero {
+  padding: 100px 32px;
+}
+.marquee .hero > div{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.marquee h1 {
+  font-size: 1.5rem;
+  width: 100%;
+}
+.marquee h2 {
+  font-size: 5rem;
+  color: #ffffff;
+  margin: 1.2rem 0 2rem;
+  max-width: 540px;
+}

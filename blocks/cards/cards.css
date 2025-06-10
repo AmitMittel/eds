@@ -25,3 +25,27 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+
+.icon-text-block ul li {
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+  padding: 3rem;
+}
+.icon-text-block .cards-card-image{
+  width: 64px;
+  height: 64px;
+}
+.icon-text-block .cards-card-image img{
+  aspect-ratio: auto;
+}
+.icon-text-block .cards-card-body {
+  margin: 0;
+}
+.icon-text-block.center {
+  text-align: center;
+}
+.icon-text-block.center .cards-card-image {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+}
