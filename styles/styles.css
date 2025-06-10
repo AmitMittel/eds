@@ -255,3 +255,20 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+.bg-red {
+  background-color: red;
+  color: #fff;
+}
+.bg-green {
+  background-color: green;
+  color: #fff;
+}
+.bg-yellow {
+  background-color: #131313;
+  color: #fff;
+}
+.bg-white {
+  background-color: #fff;
+  color: #131313;
+}
