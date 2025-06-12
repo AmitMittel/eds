@@ -22,17 +22,17 @@ export default function decorate(block) {
       const content = tabContent.cloneNode(true);
       content.setAttribute('data-index', tabId);
       content.classList.add('tab-content');
-      content.style.display = 'none'; // hide all initially
+      content.style.display = 'none'; 
       contentDivs.push(content);
     }
   });
 
-  // Clear old content and rebuild
+
   block.textContent = '';
   block.append(ul);
   contentDivs.forEach((content) => block.append(content));
 
-  // Activate first tab by default
+
   const links = ul.querySelectorAll('a');
   const contents = block.querySelectorAll('.tab-content');
 
@@ -53,7 +53,7 @@ export default function decorate(block) {
     });
   });
 
-  // Show first tab by default
+ 
   if (links.length) {
     activateTab(links[0].dataset.index);
   }
